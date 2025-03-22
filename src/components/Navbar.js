@@ -7,7 +7,7 @@ const Navbar = () => {
 
       {/* Navigation Menu */}
       <ul className="flex space-x-5 relative">
-        <li><a href="/" className="text-gray-700 hover:text-black px-6">Digital Design</a></li>
+        <li><a href="/" className="text-gray-700 hover:text-black px-6">Design</a></li>
         <li><a href="/about" className="text-gray-700 hover:text-black px-6">Video</a></li>
         {/* Case Study Dropdown (Centered) */}
         <li className="relative group">
