@@ -1,9 +1,9 @@
 import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"; 
 import DigitalDesign from "./pages/DigitalDesign";
 import StudyMate from "./pages/StudyMate";
-import About from "./pages/About";
+import About from "./pages/Video";
 import Resume from "./pages/Resume";
 
 function App() {
