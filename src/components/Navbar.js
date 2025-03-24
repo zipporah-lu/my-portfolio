@@ -8,8 +8,8 @@ const Navbar = () => {
 
       <ul className="flex space-x-5 relative">
         <li>
-          <Link to="/" className="text-gray-700 hover:text-black px-6"> 
-            Digital Design
+        <Link to="/digital-design" className="text-gray-700 hover:text-black px-6">
+          Digital Design
           </Link>
         </li>
         <li>
