@@ -8,12 +8,12 @@ const Navbar = () => {
 
       <ul className="flex space-x-5 relative">
         <li>
-          <Link to="/my-portfolio" className="text-gray-700 hover:text-black px-6">
+          <Link to="/" className="text-gray-700 hover:text-black px-6"> 
             Digital Design
           </Link>
         </li>
         <li>
-          <Link to="/about" className="text-gray-700 hover:text-black px-6">
+          <Link to="/video" className="text-gray-700 hover:text-black px-6">
             Video
           </Link>
         </li>
