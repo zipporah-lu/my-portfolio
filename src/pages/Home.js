@@ -1,10 +1,7 @@
-const DigitalDesign = () => {
-  return (
-    <div className="p-4">
-      <h1 className="text-2xl font-bold mb-4">Digital Design</h1>
-      <p>This is where I’ll showcase my digital design projects!</p>
-    </div>
-  );
-};
+import React from "react";
 
-export default DigitalDesign;
+function Home() {
+  return <h1>Welcome to the Home Page</h1>;
+}
+
+export default Home;
