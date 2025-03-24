@@ -2,7 +2,8 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/Navbar"; 
 import Home from "./pages/Home";
-import StudyMate from "./pages/StudyMate";  // New Page
+import DigitalDesign from "./pages/DigitalDesign";
+import StudyMate from "./pages/StudyMate";
 import About from "./pages/About";
 import Resume from "./pages/Resume";
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="/study-mate" element={<StudyMate />} />
           <Route path="/about" element={<About />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/digital-design" element={<DigitalDesign />} />
         </Routes>
       </div>
     </Router>
