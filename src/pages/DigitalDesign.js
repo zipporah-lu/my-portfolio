@@ -1,7 +1,9 @@
-import React from "react";
+const DigitalDesign = () => {
+  return (
+    <div className="p-8 text-center text-2xl font-bold">
+      Digital Design page works!
+    </div>
+  );
+};
 
-function Home() {
-  return <h1>Welcome to the Home Page</h1>;
-}
-
-export default Home;
+export default DigitalDesign;
