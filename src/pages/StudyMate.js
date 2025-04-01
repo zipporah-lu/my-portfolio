@@ -6,9 +6,9 @@ const DigitalDesign = () => {
       {/* Header Section with Full-Width Background Image */}
       <div
         className="w-screen h-96 bg-cover bg-center mb-8"
-        style={{ backgroundImage: `url(${process.env.PUBLIC_URL}/digital-designer.png)` }}
+        style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/my-portfolio/digital-designer.png'})` }}
       >
-        <h1 className="text-6xl text-gray-700 text-center py-32">cover photo</h1>
+        <h1 className="text-6xl text-gray-700 text-center py-32">update 9:56</h1>
       </div>
 
       {/* Content Section */}
@@ -20,13 +20,13 @@ const DigitalDesign = () => {
           <div className="flex items-center space-x-4">
             <span className="text-xl font-semibold">Software</span>
             {['adobe-1.png', 'adobe-2.png', 'adobe-3.png', 'adobe-4.png'].map((src, index) => (
-              <img key={index} src={`${process.env.PUBLIC_URL}/${src}`} alt={src} className="w-12 h-12 rounded-md shadow-md" />
+              <img key={index} src={process.env.PUBLIC_URL + '/my-portfolio/' + src} alt={src} className="w-12 h-12 rounded-md shadow-md" />
             ))}
           </div>
           <div className="flex items-center space-x-4">
             <span className="text-xl font-semibold">Social Media</span>
             {['facebook.png', 'instagram.png', 'youtube.png'].map((src, index) => (
-              <img key={index} src={`${process.env.PUBLIC_URL}/${src}`} alt={src} className="w-12 h-12 rounded-md shadow-md" />
+              <img key={index} src={process.env.PUBLIC_URL + '/my-portfolio/' + src} alt={src} className="w-12 h-12 rounded-md shadow-md" />
             ))}
           </div>
         </div>
