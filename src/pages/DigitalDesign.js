@@ -8,7 +8,7 @@ const DigitalDesign = () => {
         className="w-screen h-96 bg-cover bg-center mb-8"
         style={{ backgroundImage: `url(${process.env.PUBLIC_URL + '/my-portfolio/digital-designer.png'})` }}
       >
-        <h1 className="text-6xl text-gray-700 text-center py-32">cover photo</h1>
+        <h1 className="text-6xl text-gray-700 text-center py-32">update 10:03</h1>
       </div>
 
       {/* Content Section */}
