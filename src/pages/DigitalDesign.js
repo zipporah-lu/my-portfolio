@@ -112,6 +112,51 @@ const DigitalDesign = () => {
           </ul>
         </div>
       </div>
+
+      {/* Achievement Section */}
+      <div className="mt-6 px-20 py-2 max-w-6xl w-full">
+        <div className="flex flex-col space-y-2">
+          {/* Achievement Title */}
+          <span className="text-gray-600 bg-gray-200 px-4 py-1 rounded-lg w-max">
+            Achievement
+          </span>
+
+          {/* Achievement List */}
+          <ul className="list-disc pl-6 text-gray-700 text-lg space-y-1">
+            <li>
+              Managed Instagram, Facebook, and YouTube for a youth program with
+              1,000+ participants.
+            </li>
+            <li>
+              Created 216 posts, designed 100+ graphics, and edited 21 videos
+              within 6 months.
+            </li>
+            <li>
+              Grew followers by 650+ organically in 6 months, without paid
+              promotions.
+            </li>
+            <li>Increased average engagement (likes) from 20 to 130.</li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Image Gallery Section */}
+      <div className="mt-10 px-4 sm:px-8 md:px-20 max-w-6xl w-full flex justify-center space-x-20">
+        {["taiwanfsy-1.png", "taiwanfsy-2.png", "taiwanfsy-3.png"].map(
+          (src, index) => (
+            <div
+              key={index}
+              className="w-56 h-112 rounded-xl overflow-hidden transform transition-transform duration-300 hover:scale-105"
+            >
+              <img
+                src={`${process.env.PUBLIC_URL}/${src}`}
+                alt={`Image ${index + 1}`}
+                className="w-full h-full object-cover"
+              />
+            </div>
+          )
+        )}
+      </div>
     </div>
   );
 };
