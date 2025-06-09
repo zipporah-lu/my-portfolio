@@ -290,10 +290,10 @@ const DigitalDesign = () => {
         </p>
       </div>
 
-      {/* Grid Image Section (Below the 3 mockups) */}
+      {/* Mock up */}
       <div className="mt-10 w-full flex justify-center">
         <img
-          src={`${process.env.PUBLIC_URL}/instagram-taiwanfsy.png`}
+          src={`${process.env.PUBLIC_URL}/instagram-feebees.jpg`}
           alt="Instagram Overview Grid"
           className="w-[90%] max-w-5xl rounded-xl shadow-md object-cover"
         />
